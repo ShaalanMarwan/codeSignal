@@ -19,7 +19,7 @@ Given binary tree t, return the values of the vertices in the right view, ordere
 Example
 
 For
-
+```
 t = {
     "value": 5,
     "left": {
@@ -45,9 +45,12 @@ t = {
         }
     }   
 }
+```
 the output should be solution(t) = [5, 4, 10, 8].
 
 Here is a tree from example:
+
+```
 
    5
  /   \
@@ -56,6 +59,7 @@ Here is a tree from example:
   -1    10
  /
 8
+```
 Input/Output
 
 [execution time limit] 5 seconds (ts)
@@ -63,11 +67,11 @@ Input/Output
 [input] tree.integer t
 
 A binary tree of integers.
-
+```
 Guaranteed constraints:
 0 ≤ tree size ≤ 5 · 104,
 -1000 ≤ node value ≤ 1000.
-
+```
 [output] array.integer
 
 The values of the vertices in the right view, ordered from the top of the tree to the bottom.
