@@ -1,6 +1,7 @@
 
 
 Given a binary tree t, return its right view. To understand what the right view of the tree means, imagine yourself standing on the right side of the tree: The right view will be all the vertices that you can see. For example, imagine the following tree:
+```
 
    1            <---
  /   \
@@ -9,6 +10,8 @@ Given a binary tree t, return its right view. To understand what the right view 
   5     4       <---
  /
 6               <---
+
+```
 In this case, you can see vertices 1, 3, 4, and 6.
 
 Given binary tree t, return the values of the vertices in the right view, ordered from top to bottom.
